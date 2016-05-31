@@ -2,6 +2,7 @@
   "name": "node-testing",
   "version": "0.0.1",
   "description": "Testing a nodejs script with ES2015, babel and mocha",
+  "repository": "https://github.com/ragingprodigy/node-test",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/_mocha",
