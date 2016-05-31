@@ -1,0 +1,21 @@
+{
+  "name": "node-testing",
+  "version": "0.0.1",
+  "description": "Testing a nodejs script with ES2015, babel and mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha",
+    "cover" : "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Omonayajo Oladapo",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "6.5.2",
+    "chai": "3.5.0",
+    "istanbul": "0.4.3",
+    "mocha": "2.5.3"
+  }
+}
